@@ -71,8 +71,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b9cb6def60fa1e648aff9a1a69a9af84, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _maxFallSpeed: 3
-  _minFallSpeed: 2
+  _maxFallSpeed: 10
+  _minFallSpeed: 3
   _scorePoints: 250
 --- !u!1 &7078778321567897655
 GameObject:

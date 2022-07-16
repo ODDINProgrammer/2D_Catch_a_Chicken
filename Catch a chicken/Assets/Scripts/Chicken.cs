@@ -8,6 +8,7 @@ public class Chicken : GameEntity
     internal override void Awake()
     {
         base.Awake();
+        _sound.Play_chickenSpawn();
     }
 
     internal override void Update()
@@ -20,6 +21,7 @@ public class Chicken : GameEntity
         base.Interact();
         FindObjectOfType<GameManager>().PlayerScore += _scorePoints;
         GlobalEventManager.SendChickenCatched();
+        _sound.Play_chickenCatch();
     }
     public override void MissCatched()
     {
