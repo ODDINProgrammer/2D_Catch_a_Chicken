@@ -21,4 +21,10 @@ public class Chicken : GameEntity
         FindObjectOfType<GameManager>().PlayerScore += _scorePoints;
         GlobalEventManager.SendChickenCatched();
     }
+    public override void MissCatched()
+    {
+        base.MissCatched();
+        FindObjectOfType<GameManager>().PlayerScore -= _scorePoints / 2;
+        GlobalEventManager.SendChickenCatched();
+    }
 }
