@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2362241464430140450}
   - component: {fileID: 2362241464430140449}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Golden Chicken
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -56,7 +56,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2362241465081894949}
   - component: {fileID: 2362241465081894950}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: chicken_3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
