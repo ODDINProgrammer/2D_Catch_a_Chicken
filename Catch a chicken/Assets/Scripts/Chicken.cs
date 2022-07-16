@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class Chicken : GameEntity
 {
-    [SerializeField] private int _scorePoints;
     internal override void Awake()
     {
         base.Awake();
@@ -20,13 +19,13 @@ public class Chicken : GameEntity
     {
         base.Interact();
         FindObjectOfType<GameManager>().PlayerScore += _scorePoints;
-        GlobalEventManager.SendChickenCatched();
+        GlobalEventManager.ObjectCatched();
         _sound.Play_chickenCatch();
     }
     public override void MissCatched()
     {
         base.MissCatched();
         FindObjectOfType<GameManager>().PlayerScore -= _scorePoints / 2;
-        GlobalEventManager.SendChickenCatched();
+        GlobalEventManager.ObjectCatched();
     }
 }

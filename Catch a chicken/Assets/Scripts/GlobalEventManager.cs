@@ -5,10 +5,10 @@ using UnityEngine;
 
 public class GlobalEventManager : MonoBehaviour
 {
-    public static Action OnChickenCatched;
+    public static Action OnObjectCatched;
 
-    public static void SendChickenCatched()
+    public static void ObjectCatched()
     {
-        if (OnChickenCatched != null) OnChickenCatched.Invoke();
+        if (OnObjectCatched != null) OnObjectCatched.Invoke();
     }
 }

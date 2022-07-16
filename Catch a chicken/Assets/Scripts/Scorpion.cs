@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class Scorpion : GameEntity
 {
-    [SerializeField] private int _scorePoints;
     internal override void Awake()
     {
         base.Awake();
@@ -14,7 +13,7 @@ public class Scorpion : GameEntity
     {
         base.Interact();
         FindObjectOfType<GameManager>().PlayerScore -= _scorePoints;
-        GlobalEventManager.SendChickenCatched();
+        GlobalEventManager.ObjectCatched();
         _sound.Play_scorpionCatch();
     }
 }

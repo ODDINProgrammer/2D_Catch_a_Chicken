@@ -10,7 +10,7 @@ public class ScoreUI : MonoBehaviour
 
     private void Start()
     {
-        GlobalEventManager.OnChickenCatched += SetScoreUI;
+        GlobalEventManager.OnObjectCatched += SetScoreUI;
     }
 
     private void SetScoreUI()

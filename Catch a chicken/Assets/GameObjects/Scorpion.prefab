@@ -73,6 +73,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _maxFallSpeed: 10
   _minFallSpeed: 3
+  _sound: {fileID: 0}
   _scorePoints: 250
 --- !u!1 &7078778321567897655
 GameObject:
