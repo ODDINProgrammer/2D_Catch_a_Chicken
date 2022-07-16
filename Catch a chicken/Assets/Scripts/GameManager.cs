@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class GameManager : MonoBehaviour
 {
+    #region //Object amount
     [SerializeField] private int _maxObjectCount;
     private int _currentObjectCount;
 
@@ -16,5 +17,12 @@ public class GameManager : MonoBehaviour
     {
         get => _maxObjectCount;
     }
+    #endregion 
+    [SerializeField] private int _playerScore;
 
+    public int PlayerScore
+    {
+        set => _playerScore = value; 
+        get => _playerScore;
+    }
 }

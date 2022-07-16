@@ -18,5 +18,6 @@ public class Chicken : GameEntity
     public override void Interact()
     {
         base.Interact();
+        FindObjectOfType<GameManager>().PlayerScore += _scorePoints;
     }
 }
