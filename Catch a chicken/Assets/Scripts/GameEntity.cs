@@ -8,8 +8,8 @@ public class GameEntity : MonoBehaviour
     [Range(2f, 5f)] [SerializeField] private float _maxFallSpeed;
     [Range(0.2f, 2f)] [SerializeField] private float _minFallSpeed;
 
-    virtual public void Interact() { Destroy(gameObject); }
-    virtual public void MissCatched() { Destroy(gameObject); }
+    virtual public void Interact() { Destroy(gameObject); FindObjectOfType<GameManager>().CurrentObjectCount--; }
+    virtual public void MissCatched() { Destroy(gameObject); FindObjectOfType<GameManager>().CurrentObjectCount--; }
     virtual internal void Awake()
     {
         _fallSpeed = Random.Range(_minFallSpeed, _maxFallSpeed);

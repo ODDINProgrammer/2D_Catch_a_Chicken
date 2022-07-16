@@ -10,7 +10,7 @@ public class GameManager : MonoBehaviour
 
     public int CurrentObjectCount
     {
-        set => _currentObjectCount++;
+        set => _currentObjectCount = value;
         get => _currentObjectCount;
     }
     public int MaxObjectCount
