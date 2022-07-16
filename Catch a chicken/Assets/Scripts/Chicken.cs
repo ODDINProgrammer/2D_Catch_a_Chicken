@@ -19,5 +19,6 @@ public class Chicken : GameEntity
     {
         base.Interact();
         FindObjectOfType<GameManager>().PlayerScore += _scorePoints;
+        GlobalEventManager.SendChickenCatched();
     }
 }
