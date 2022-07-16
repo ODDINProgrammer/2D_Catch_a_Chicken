@@ -9,7 +9,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2362241464430140450}
-  - component: {fileID: 2362241464430140449}
+  - component: {fileID: -1249301376961297092}
+  - component: {fileID: -1538145072865435722}
   m_Layer: 8
   m_Name: Golden Chicken
   m_TagString: Untagged
@@ -32,7 +33,33 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &2362241464430140449
+--- !u!61 &-1249301376961297092
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2362241464430140448}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0
+--- !u!114 &-1538145072865435722
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -41,11 +68,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 2362241464430140448}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6cad3d2b4801e5a47a8e6b7469835b86, type: 3}
+  m_Script: {fileID: 11500000, guid: c03e1301a17d6da47b9dab7d072933b9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _maxFallSpeed: 5
-  _minFallSpeed: 0.2
+  _maxFallSpeed: 3
+  _minFallSpeed: 1.5
+  _scorePoints: 500
 --- !u!1 &2362241465081894948
 GameObject:
   m_ObjectHideFlags: 0

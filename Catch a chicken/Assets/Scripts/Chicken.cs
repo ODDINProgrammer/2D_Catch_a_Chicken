@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class Chicken : GameEntity
 {
+    [SerializeField] private int _scorePoints;
     internal override void Awake()
     {
         base.Awake();
@@ -12,5 +13,10 @@ public class Chicken : GameEntity
     internal override void Update()
     {
         base.Update();
+    }
+
+    public override void Interact()
+    {
+        base.Interact();
     }
 }
