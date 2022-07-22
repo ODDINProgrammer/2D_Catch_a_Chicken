@@ -382,7 +382,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _spawnDelay: 1.5
-  _objectSpawnAmount: 10
+  _objectSpawnAmount: 8
   _chanceToSpawn:
   - 100
   _spawnableObjects:
@@ -2562,7 +2562,7 @@ PrefabInstance:
     - target: {fileID: 6937668985620369859, guid: c7c7b2867734eea4f80883c7f78fa398,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -4
+      value: -3
       objectReference: {fileID: 0}
     - target: {fileID: 6937668985620369859, guid: c7c7b2867734eea4f80883c7f78fa398,
         type: 3}
