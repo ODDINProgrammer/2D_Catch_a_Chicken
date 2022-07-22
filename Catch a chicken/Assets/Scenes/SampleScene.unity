@@ -177,7 +177,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &50393056
 MonoBehaviour:
@@ -381,8 +381,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9f6b3b04d32ea5d40ae5913f162ee43a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _spawnDelay: 3
-  _objectSpawnAmount: 8
+  _spawnDelay: 1.5
+  _objectSpawnAmount: 10
   _chanceToSpawn:
   - 100
   _spawnableObjects:
@@ -604,7 +604,7 @@ Transform:
   - {fileID: 995014537}
   - {fileID: 1366964945}
   m_Father: {fileID: 0}
-  m_RootOrder: 11
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &491880077
 GameObject:
@@ -699,7 +699,7 @@ RectTransform:
   - {fileID: 1387927377}
   - {fileID: 1388637118}
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -1731,7 +1731,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1366964944
 GameObject:
@@ -2188,7 +2188,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 209b8dd6a5f36884fad3b99b4e454a96, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _maxObjectCount: 20
+  _maxObjectCount: 50
   _playerScore: 0
 --- !u!4 &1601727693
 Transform:
@@ -2202,7 +2202,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1601727694
 MonoBehaviour:
@@ -2401,7 +2401,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 10
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1989301436
 MonoBehaviour:
@@ -2530,7 +2530,7 @@ RectTransform:
   m_Children:
   - {fileID: 239344581}
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}

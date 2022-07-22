@@ -17,12 +17,14 @@ public class GameManager : MonoBehaviour
     {
         get => _maxObjectCount;
     }
-    #endregion 
-    [SerializeField] private int _playerScore;
+    #endregion
 
+    #region //Score
+    [SerializeField] private int _playerScore;
     public int PlayerScore
     {
         set => _playerScore = value; 
         get => _playerScore;
     }
+    #endregion
 }
